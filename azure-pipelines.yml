@@ -1,0 +1,61 @@
+trigger:
+  branches:
+    include:
+      - main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  backendImage: 'apiflowhub-backend'
+  frontendImage: 'apiflowhub-frontend'
+  backendContext: 'APIFlowHub'
+  backendDockerfile: 'APIFlowHub/Dockerfile'
+  frontendContext: 'front-end'
+  frontendDockerfile: 'front-end/Dockerfile'
+
+stages:
+- stage: BuildAndTest
+  displayName: 'Build and Test'
+  jobs:
+  - job: BuildTest
+    displayName: 'Restore, Build, and Test Backend'
+    steps:
+    - checkout: self
+
+    - task: UseDotNet@2
+      displayName: 'Use .NET 8 SDK'
+      inputs:
+        packageType: 'sdk'
+        version: '8.x'
+
+    - script: |
+        dotnet restore $(backendContext)/APIFlowHub.Backend.csproj
+      displayName: 'Restore NuGet Packages'
+
+    - script: |
+        dotnet build $(backendContext)/APIFlowHub.Backend.csproj --configuration Release --no-restore
+      displayName: 'Build Backend'
+
+    - script: |
+        dotnet test $(backendContext)/APIFlowHub.Backend.csproj --configuration Release --no-build --verbosity normal
+      displayName: 'Run Backend Tests'
+
+- stage: DockerBuild
+  displayName: 'Build Docker Images'
+  dependsOn: BuildAndTest
+  jobs:
+  - job: Docker
+    displayName: 'Build Backend and Frontend Docker Images'
+    steps:
+    - checkout: self
+
+    - script: |
+        echo "Building backend Docker image..."
+        docker build -f $(backendDockerfile) -t $(backendImage):latest $(backendContext)
+      displayName: 'Build Backend Docker Image'
+
+    - script: |
+        echo "Building frontend Docker image..."
+        docker build -f $(frontendDockerfile) -t $(frontendImage):latest $(frontendContext)
+      displayName: 'Build Frontend Docker Image'
