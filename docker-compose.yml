@@ -1,0 +1,42 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password123
+      POSTGRES_DB: apiflowhub_db
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  backend:
+    build:
+      context: ./APIFlowHub
+    depends_on:
+      - db
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__DefaultConnection: "Host=db;Port=5227;Database=apiflowhub_db;Username=postgres;Password=password123"
+    ports:
+      - "7119:7119"
+    networks:
+      - apinetwork
+
+  frontend:
+    build:
+      context: ./front-end
+    depends_on:
+      - backend
+    ports:
+      - "80:80"
+    networks:
+      - apinetwork
+
+volumes:
+  pgdata:
+
+networks:
+  apinetwork:
+    driver: bridge 

@@ -1,0 +1,96 @@
+[
+  {
+    "ContainingType": "APIFlowHub.Controllers.CurlController",
+    "Method": "Import",
+    "RelativePath": "api/Curl/import",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "curlCommands",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIFlowHub.Controllers.CurlController",
+    "Method": "ListImportedEndpoints",
+    "RelativePath": "api/Curl/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIFlowHub.Controllers.FlowController",
+    "Method": "GetFlow",
+    "RelativePath": "api/Flow/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIFlowHub.Controllers.FlowController",
+    "Method": "ListFlows",
+    "RelativePath": "api/Flow/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIFlowHub.Controllers.FlowController",
+    "Method": "SaveFlow",
+    "RelativePath": "api/Flow/save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "APIFlowHub.Controllers.FlowController\u002BFlowSaveRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIFlowHub.Controllers.GitHubController",
+    "Method": "ImportFromGitHub",
+    "RelativePath": "api/GitHub/import",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "APIFlowHub.Controllers.GitHubController\u002BGitHubImportRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIFlowHub.Controllers.StatusController",
+    "Method": "Get",
+    "RelativePath": "api/Status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

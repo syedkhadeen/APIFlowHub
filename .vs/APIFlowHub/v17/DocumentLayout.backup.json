@@ -1,0 +1,203 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\T14\\source\\repos\\APIFlowHub\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F145D723-6EA5-428D-BC66-CD3D59D1B1BF}|APIFlowHub\\APIFlowHub.Backend.csproj|c:\\users\\t14\\source\\repos\\apiflowhub\\apiflowhub\\controllers\\curlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F145D723-6EA5-428D-BC66-CD3D59D1B1BF}|APIFlowHub\\APIFlowHub.Backend.csproj|solutionrelative:apiflowhub\\controllers\\curlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F145D723-6EA5-428D-BC66-CD3D59D1B1BF}|APIFlowHub\\APIFlowHub.Backend.csproj|c:\\users\\t14\\source\\repos\\apiflowhub\\apiflowhub\\controllers\\githubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F145D723-6EA5-428D-BC66-CD3D59D1B1BF}|APIFlowHub\\APIFlowHub.Backend.csproj|solutionrelative:apiflowhub\\controllers\\githubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F145D723-6EA5-428D-BC66-CD3D59D1B1BF}|APIFlowHub\\APIFlowHub.Backend.csproj|c:\\users\\t14\\source\\repos\\apiflowhub\\apiflowhub\\controllers\\flowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F145D723-6EA5-428D-BC66-CD3D59D1B1BF}|APIFlowHub\\APIFlowHub.Backend.csproj|solutionrelative:apiflowhub\\controllers\\flowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F145D723-6EA5-428D-BC66-CD3D59D1B1BF}|APIFlowHub\\APIFlowHub.Backend.csproj|c:\\users\\t14\\source\\repos\\apiflowhub\\apiflowhub\\controllers\\statuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F145D723-6EA5-428D-BC66-CD3D59D1B1BF}|APIFlowHub\\APIFlowHub.Backend.csproj|solutionrelative:apiflowhub\\controllers\\statuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F145D723-6EA5-428D-BC66-CD3D59D1B1BF}|APIFlowHub\\APIFlowHub.Backend.csproj|c:\\users\\t14\\source\\repos\\apiflowhub\\apiflowhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F145D723-6EA5-428D-BC66-CD3D59D1B1BF}|APIFlowHub\\APIFlowHub.Backend.csproj|solutionrelative:apiflowhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F145D723-6EA5-428D-BC66-CD3D59D1B1BF}|APIFlowHub\\APIFlowHub.Backend.csproj|c:\\users\\t14\\source\\repos\\apiflowhub\\apiflowhub\\models\\apiendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F145D723-6EA5-428D-BC66-CD3D59D1B1BF}|APIFlowHub\\APIFlowHub.Backend.csproj|solutionrelative:apiflowhub\\models\\apiendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F145D723-6EA5-428D-BC66-CD3D59D1B1BF}|APIFlowHub\\APIFlowHub.Backend.csproj|c:\\users\\t14\\source\\repos\\apiflowhub\\apiflowhub\\models\\apiflowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F145D723-6EA5-428D-BC66-CD3D59D1B1BF}|APIFlowHub\\APIFlowHub.Backend.csproj|solutionrelative:apiflowhub\\models\\apiflowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F145D723-6EA5-428D-BC66-CD3D59D1B1BF}|APIFlowHub\\APIFlowHub.Backend.csproj|c:\\users\\t14\\source\\repos\\apiflowhub\\apiflowhub\\models\\flow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F145D723-6EA5-428D-BC66-CD3D59D1B1BF}|APIFlowHub\\APIFlowHub.Backend.csproj|solutionrelative:apiflowhub\\models\\flow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F145D723-6EA5-428D-BC66-CD3D59D1B1BF}|APIFlowHub\\APIFlowHub.Backend.csproj|c:\\users\\t14\\source\\repos\\apiflowhub\\apiflowhub\\models\\flownode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F145D723-6EA5-428D-BC66-CD3D59D1B1BF}|APIFlowHub\\APIFlowHub.Backend.csproj|solutionrelative:apiflowhub\\models\\flownode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F145D723-6EA5-428D-BC66-CD3D59D1B1BF}|APIFlowHub\\APIFlowHub.Backend.csproj|c:\\users\\t14\\source\\repos\\apiflowhub\\apiflowhub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F145D723-6EA5-428D-BC66-CD3D59D1B1BF}|APIFlowHub\\APIFlowHub.Backend.csproj|solutionrelative:apiflowhub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GitHubController.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\source\\repos\\APIFlowHub\\APIFlowHub\\Controllers\\GitHubController.cs",
+              "RelativeDocumentMoniker": "APIFlowHub\\Controllers\\GitHubController.cs",
+              "ToolTip": "C:\\Users\\T14\\source\\repos\\APIFlowHub\\APIFlowHub\\Controllers\\GitHubController.cs",
+              "RelativeToolTip": "APIFlowHub\\Controllers\\GitHubController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwEAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T11:57:16.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\source\\repos\\APIFlowHub\\APIFlowHub\\Program.cs",
+              "RelativeDocumentMoniker": "APIFlowHub\\Program.cs",
+              "ToolTip": "C:\\Users\\T14\\source\\repos\\APIFlowHub\\APIFlowHub\\Program.cs",
+              "RelativeToolTip": "APIFlowHub\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T12:51:48.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FlowController.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\source\\repos\\APIFlowHub\\APIFlowHub\\Controllers\\FlowController.cs",
+              "RelativeDocumentMoniker": "APIFlowHub\\Controllers\\FlowController.cs",
+              "ToolTip": "C:\\Users\\T14\\source\\repos\\APIFlowHub\\APIFlowHub\\Controllers\\FlowController.cs",
+              "RelativeToolTip": "APIFlowHub\\Controllers\\FlowController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAuwDYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T19:06:53.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApiEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\source\\repos\\APIFlowHub\\APIFlowHub\\Models\\ApiEndpoint.cs",
+              "RelativeDocumentMoniker": "APIFlowHub\\Models\\ApiEndpoint.cs",
+              "ToolTip": "C:\\Users\\T14\\source\\repos\\APIFlowHub\\APIFlowHub\\Models\\ApiEndpoint.cs",
+              "RelativeToolTip": "APIFlowHub\\Models\\ApiEndpoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T13:16:24.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CurlController.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\source\\repos\\APIFlowHub\\APIFlowHub\\Controllers\\CurlController.cs",
+              "RelativeDocumentMoniker": "APIFlowHub\\Controllers\\CurlController.cs",
+              "ToolTip": "C:\\Users\\T14\\source\\repos\\APIFlowHub\\APIFlowHub\\Controllers\\CurlController.cs",
+              "RelativeToolTip": "APIFlowHub\\Controllers\\CurlController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA5wBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T13:00:53.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "APIFlowDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\source\\repos\\APIFlowHub\\APIFlowHub\\Models\\APIFlowDbContext.cs",
+              "RelativeDocumentMoniker": "APIFlowHub\\Models\\APIFlowDbContext.cs",
+              "ToolTip": "C:\\Users\\T14\\source\\repos\\APIFlowHub\\APIFlowHub\\Models\\APIFlowDbContext.cs",
+              "RelativeToolTip": "APIFlowHub\\Models\\APIFlowDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T12:39:59.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StatusController.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\source\\repos\\APIFlowHub\\APIFlowHub\\Controllers\\StatusController.cs",
+              "RelativeDocumentMoniker": "APIFlowHub\\Controllers\\StatusController.cs",
+              "ToolTip": "C:\\Users\\T14\\source\\repos\\APIFlowHub\\APIFlowHub\\Controllers\\StatusController.cs",
+              "RelativeToolTip": "APIFlowHub\\Controllers\\StatusController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T19:07:46.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Flow.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\source\\repos\\APIFlowHub\\APIFlowHub\\Models\\Flow.cs",
+              "RelativeDocumentMoniker": "APIFlowHub\\Models\\Flow.cs",
+              "ToolTip": "C:\\Users\\T14\\source\\repos\\APIFlowHub\\APIFlowHub\\Models\\Flow.cs",
+              "RelativeToolTip": "APIFlowHub\\Models\\Flow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T13:16:32.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FlowNode.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\source\\repos\\APIFlowHub\\APIFlowHub\\Models\\FlowNode.cs",
+              "RelativeDocumentMoniker": "APIFlowHub\\Models\\FlowNode.cs",
+              "ToolTip": "C:\\Users\\T14\\source\\repos\\APIFlowHub\\APIFlowHub\\Models\\FlowNode.cs",
+              "RelativeToolTip": "APIFlowHub\\Models\\FlowNode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T13:16:42.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\T14\\source\\repos\\APIFlowHub\\APIFlowHub\\appsettings.json",
+              "RelativeDocumentMoniker": "APIFlowHub\\appsettings.json",
+              "ToolTip": "C:\\Users\\T14\\source\\repos\\APIFlowHub\\APIFlowHub\\appsettings.json",
+              "RelativeToolTip": "APIFlowHub\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-10T12:51:54.562Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

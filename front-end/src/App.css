@@ -1,0 +1,145 @@
+#root {
+  width: 100vw;
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #000;
+  background: #222; /* or your preferred background */
+}
+
+.container {
+  width: 90vw;
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 2rem 0;
+  background: #f9f9f9;
+  border-radius: 0;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.status-btn {
+  background: #646cff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.75em 1.5em;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin: 1em 0;
+  transition: background 0.2s;
+}
+.status-btn:disabled {
+  background: #bbb;
+  cursor: not-allowed;
+}
+.status-btn:hover:not(:disabled) {
+  background: #4b52c3;
+}
+
+.status-box {
+  background: #e7fbe7;
+  color: #1a4d1a;
+  border: 1px solid #b2e2b2;
+  border-radius: 4px;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.error-box {
+  background: #ffeaea;
+  color: #a33;
+  border: 1px solid #f5bcbc;
+  border-radius: 4px;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.import-curl-section {
+  margin-top: 2em;
+  padding: 2em 2.5em;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  max-width: 900px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.curl-textarea {
+  width: 100%;
+  min-height: 120px;
+  font-family: monospace;
+  font-size: 1.1em;
+  padding: 1em;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 1em;
+  resize: vertical;
+}
+.import-curl-btn {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.7em 1.5em;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.import-curl-btn:disabled {
+  background: #b3d1ff;
+  cursor: not-allowed;
+}
+.import-result-box {
+  background: #f4f4f4;
+  border-radius: 6px;
+  padding: 1em;
+  margin-top: 1em;
+  font-family: monospace;
+  font-size: 1em;
+  overflow-x: auto;
+  color: #000;
+  width: 100%;
+}
+
+@media (max-width: 1300px) {
+  #root {
+    max-width: 3000vw;
+    padding: 1.2rem 0.5rem;
+  }
+  .container {
+    max-width: 98vw;
+    padding: 1.2rem 0.5rem;
+  }
+  .import-curl-section {
+    max-width: 98vw;
+    padding: 1.2em 0.5em;
+  }
+}
+
+@media (max-width: 700px) {
+  #root {
+    max-width: 100vw;
+    padding: 0.5rem 0.1rem;
+  }
+  .container {
+    max-width: 100vw;
+    padding: 0.5rem 0.1rem;
+  }
+  .import-curl-section {
+    max-width: 100vw;
+    padding: 0.7em 0.1em;
+  }
+  .import-result-box, .error-box {
+    font-size: 0.95em;
+    padding: 0.7em;
+  }
+}
